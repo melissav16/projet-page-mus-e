@@ -1,0 +1,54 @@
+*{
+  max-width: 100%;
+}
+
+.site-header{
+  justify-content: space-between;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+
+
+a{
+  text-decoration:none;
+  padding: 20px;
+  color:black;
+  border: 1px solid black;
+  font-family:arial;
+  font-size:15px;
+}
+
+.actus__titre{
+  justify-content:center;
+}
+
+.btn{
+  border:none;
+  background-color:none;
+  margin-top:10px;
+  padding:10px;
+  border-radius: 10px;
+  color:white;
+  background-color:black;
+  font: arial bold 15px;
+}
+
+
+.actus__img{
+  text-align:center;
+}
+
+.actus__AVenir{
+  justify-content:center;
+}
+
+
+.infos{
+  background:gray;
+  
+}
+
+.actus__boxTextBtn {
+  background:lightblue;
+  
+}
