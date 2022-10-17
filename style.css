@@ -50,5 +50,12 @@ a{
 
 .actus__boxTextBtn {
   background:lightblue;
-  
+  width : 80%;
+  justify-content:center;
+}
+
+
+.actuContent{
+  width: 80%;
+  margin-left: auto;
 }
