@@ -7,3 +7,7 @@
 .flex{
   display: flex;
 }
+
+.spaceBet{
+  justify-content: space-between;
+}

@@ -14,7 +14,7 @@
 <body>
   
 
-  <header class="site-header flex">
+  <header class="site-header spaceBet flex">
     <div class="site-header__logo  col1">
       <img src="MAM.svg">
     </div>
@@ -41,52 +41,77 @@
   <section class="site-content">
     <div class="site-content__actus">
 
-      <div class="actus__titre  flex">
-        <h1 class="titre">A Venir !</h1>
+      <div class="titres  flex">
+        <h1 class="actus__titre">A Venir !</h1>
       </div>
 
       <div class="actus__img  col7">
-        <img class="img1" src="Actu1.png">
+        <img class="images" src="Actu1.png">
       </div>
 
       <div class="actus__AVenir flex">
-        <div class="infos  col1">
+        <div class="infos col2  ">
           <h1>04/ 10</h1>
           <h3>Francisco Tropa</h3>
           <h3>Le Poumon et le cœur</h3>
         </div>
 
-        <div class="actus__boxTextBtn  col2 ">
-          <div class="boxTextBtn__text  col6">
+        <div class="actus__boxTextBtn  col4">
+          <div class="boxTextBtn__text  ">
             <p class="actuContent">Artiste majeur de la scène portugaise, Francisco Tropa (1968, Lisbonne) est invité au Musée d’Art Moderne
               de Paris à présenter une exposition dans le cadre de la Saison France-Portugal 2022 organisée par
               l'Institut français.</p>
           </div>
 
-          <div class="boxTextBtn__btn  col1">
+          <div class="boxTextBtn__btn  ">
             <button class="btn">En savoir plus</button>
           </div>
         </div>
       </div>
     </div>
 
+
+    
     <div class="site-content__Expo">
-      <img src="expo.jpg">
-      <h1>Du 23 septembre 2022 au 12 février 2023</h1>
-      <h2>Oskar Kokoschka,Un fauve à Vienne</h2>
-      <p>Le Musée d’Art Moderne de Paris présente la première rétrospective parisienne consacrée à l’artiste autrichien
-        Oskar Kokoschka (1886-1980). Retraçant sept décennies de création picturale, l’exposition rend compte de
-        l'originalité dont fait preuve l’artiste et nous permet de traverser à ses côtés le XXe européen.</p>
-      <button class="btn">En savoir plus</button>
+      <div class="titres  flex">
+        <h1 class="Expo__titre">Expositions</h1>
+      </div>
+
+      <div class="Expo__box flex">  
+        <div class="Expo-box__img  col7">
+          <img class="images" src="expo.jpg">
+        </div>
+  
+        <div class="Expo-box__infos">
+          <h1>Du 23 septembre 2022 au 12 février 2023</h1>
+          <h2>Oskar Kokoschka,Un fauve à Vienne</h2>
+        
+  
+        
+          <p>Le Musée d’Art Moderne de Paris présente la première rétrospective parisienne consacrée à l’artiste autrichien
+            Oskar Kokoschka (1886-1980). Retraçant sept décennies de création picturale, l’exposition rend compte de
+            l'originalité dont fait preuve l’artiste et nous permet de traverser à ses côtés le XXe européen.</p>
+        
+
+        
+          <button class="btn">En savoir plus</button>
+        </div>
+      </div>
     </div>
+
+    
     <div class="site-content__Collec">
 
+      <div class="titres  flex">
+        <h1 class="Collec__titre">Collections</h1>
+      </div>
+      
+      
       <div id="slider">
-        <img src="collec.jpg" alt="" id="slide">
-        <div id="precedent" onclick="ChangeSlide(-1)">
-          << /div>
-            <div id="suivant" onclick="ChangeSlide(1)">></div>
-        </div>
+        <img src="collec.jpg" alt="" id="slider">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+        <div id="suivant" onclick="ChangeSlide(1)"></div>
+      </div>
 
         <h1>Du 16 septembre 2022 au 25 juin 2023</h1>
         <h2>Donation Anni et Josef Albers</h2>
@@ -100,42 +125,18 @@
           procédure de donation sera soumise au vote du conseil d'administration de Paris Musées au mois d'octobre 2022.
         </p>
         <button class="btn">En savoir plus</button>
-      </div>
+    </div>
 
   </section>
 
             
  <!--footer-->
-  <footer class="footer col7">
-    <ul>
-      <li>
-        <a class="col 2" href="#"><img src="img/instagram.png"></a>
-      </li>
-      <li>
-        <a class="col 2" href="#"><img src="img/facebook.png"></a>
-      </li>
-      <li>
-        <a class="col 2" href="#"><img src="img/linkedin.png"></a>
-      </li>
-      <li>
-        <a class="col 2" href="#"><img src="img/tripadvisor.png"></a>
-      </li>
-    </ul>
-
-    <ul>
-      <li>
-        <a href="Mentions légales"</a>
-      </li>
-
-      <li>
-        <a href="Aides et accessibilité"</a>
-      </li>
-    </ul>
-  </footer>
+ 
 
   <script src="script.js"></script>
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
   <script src="slider.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  
 </body>
 
 </html>
